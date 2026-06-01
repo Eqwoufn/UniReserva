@@ -117,7 +117,7 @@ export default function AdminDashboard() {
       categoria: "Áreas de Estudio", // Forzado como espacio de estudio
       capacidad: parseInt(nuevaCapacidad),
       disponible: true,
-      imagen: "tachy4.png", // Imagen genérica de sala de estudio
+      imagen: "salaetudio_ulima_1.png", // Imagen de sala de estudio institucional
       descripcion: "Sala de estudio extra añadida por la administración para el trabajo grupal y académico.",
       esExtra: true
     };
