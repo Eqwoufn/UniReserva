@@ -49,7 +49,9 @@ export default function Perfil() {
           </div>
           <div className="info-item">
             <span className="info-label">Nombre Completo:</span>
-            <span className="info-valor">Estudiante Ulima</span>
+            <span className="info-valor">
+              {codigo === '20236694' ? 'Christian Ricse' : 'Estudiante Ulima'}
+            </span>
           </div>
           <div className="info-item">
             <span className="info-label">Carrera:</span>
