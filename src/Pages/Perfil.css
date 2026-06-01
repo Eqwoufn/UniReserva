@@ -1,0 +1,84 @@
+.perfil-contenedor {
+  padding: 40px 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.perfil-tarjeta {
+  background-color: white;
+  border-radius: 12px;
+  box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+  max-width: 500px;
+  width: 100%;
+  padding: 40px;
+  text-align: center;
+}
+
+.perfil-cabecera {
+  margin-bottom: 30px;
+}
+
+.perfil-avatar {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  background-color: #ff6600;
+  color: white;
+  font-size: 1.8em;
+  font-weight: bold;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto 15px auto;
+  box-shadow: 0 4px 8px rgba(255, 102, 0, 0.2);
+}
+
+.perfil-cabecera h2 {
+  margin: 0;
+  color: #333;
+  font-size: 1.8em;
+}
+
+.perfil-subtitulo {
+  color: #ff6600;
+  font-weight: bold;
+  margin: 5px 0 0 0;
+  text-transform: uppercase;
+  font-size: 0.9em;
+  letter-spacing: 1px;
+}
+
+.perfil-info {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  text-align: left;
+  border-top: 1px solid #eee;
+  padding-top: 20px;
+}
+
+.info-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 8px 0;
+}
+
+.info-label {
+  color: #666;
+  font-weight: 500;
+}
+
+.info-valor {
+  color: #333;
+  font-weight: bold;
+}
+
+.badge-activas {
+  background-color: #ffe0cc;
+  color: #ff6600;
+  padding: 4px 12px;
+  border-radius: 20px;
+  font-size: 0.9em;
+}

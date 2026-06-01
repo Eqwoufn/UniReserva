@@ -5,13 +5,13 @@ import './Login.css';
 export default function Login() {
   const [codigo, setCodigo] = useState('');
   const [password, setPassword] = useState('');
+  const navigate = useNavigate();
 
   const manejarEnvio = (e) => {
     e.preventDefault(); 
-  
-  const navigate = useNavigate();
     
     console.log("Intentando ingresar con el código:", codigo);
+    localStorage.setItem('codigoAlumno', codigo);
     navigate('/dashboard');
   };
 

@@ -1,0 +1,141 @@
+.detalle-contenedor {
+  padding: 40px 20px;
+  display: flex;
+  justify-content: center;
+}
+
+.detalle-tarjeta {
+  background-color: white;
+  border-radius: 12px;
+  box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+  display: flex;
+  align-items: center;
+  max-width: 900px;
+  width: 100%;
+  padding: 40px;
+  gap: 40px;
+}
+
+.detalle-info {
+  flex: 1; /* Toma el espacio restante */
+}
+
+.detalle-info h2 {
+  font-size: 2em;
+  color: #333;
+  margin-top: 0;
+  margin-bottom: 10px;
+}
+
+.detalle-tag {
+  background-color: #ffe0cc;
+  color: #ff6600;
+  padding: 5px 10px;
+  border-radius: 5px;
+  font-weight: bold;
+  font-size: 0.9em;
+}
+
+.detalle-capacidad {
+  margin-top: 20px;
+  font-size: 1.1em;
+  color: #555;
+}
+
+.detalle-texto {
+  line-height: 1.6;
+  color: #666;
+  margin-bottom: 30px;
+  text-align: justify;
+}
+
+/* Formulario de selección */
+.reserva-formulario {
+  margin-top: 25px;
+  margin-bottom: 25px;
+  background-color: #fcfcfd;
+  padding: 15px 20px;
+  border-radius: 8px;
+  border: 1px solid #eef0f3;
+}
+
+.reserva-formulario h3 {
+  margin: 0 0 15px 0;
+  font-size: 1.1em;
+  color: #333;
+}
+
+.reserva-selector {
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.selector-group {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  flex: 1;
+  min-width: 150px;
+}
+
+.selector-group label {
+  font-weight: bold;
+  font-size: 0.9em;
+  color: #555;
+}
+
+.selector-group input, .selector-group select {
+  padding: 10px;
+  border: 1px solid #dcdfe6;
+  border-radius: 6px;
+  font-size: 0.95em;
+  outline: none;
+  background-color: white;
+  transition: border-color 0.2s;
+}
+
+.selector-group input:focus, .selector-group select:focus {
+  border-color: #ff6600;
+}
+
+/* Botones */
+.detalle-botones {
+  display: flex;
+  gap: 15px;
+}
+
+.btn-confirmar {
+  background-color: #ff6600;
+  color: white;
+  border: none;
+  padding: 12px 25px;
+  border-radius: 8px;
+  font-weight: bold;
+  cursor: pointer;
+  font-size: 1em;
+}
+
+.btn-cancelar {
+  background-color: transparent;
+  color: #666;
+  border: 1px solid #ccc;
+  padding: 12px 25px;
+  border-radius: 8px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+/* Imagen circular */
+.detalle-imagen-box {
+  flex-shrink: 0;
+}
+
+.imagen-circular {
+  width: 250px;
+  height: 250px;
+  border-radius: 50%; /* Esto la hace perfectamente redonda */
+  object-fit: cover; /* Evita que la imagen se deforme o estire */
+  border: 5px solid #f4f4f9;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+}
